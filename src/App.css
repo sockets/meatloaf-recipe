@@ -1,0 +1,6 @@
+.meatloaf {
+  background: linear-gradient(90.86deg, rgb(24, 24, 27) 0.69%, rgba(24, 24, 27, 0) 98.22%), url(meatloaf.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
