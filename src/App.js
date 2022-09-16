@@ -105,7 +105,7 @@ function App() {
                 <span className="ml-2 mt-5 inline-block w-full h-[3px] rounded-full bg-orange-500"></span>
               </div>
               <div className="mt-10 mx-auto w-[90%] text-left">
-                <ul className="list-disc list-inside grid grid-cols-2 text-zinc-100 capitalize">
+                <ul className="list-disc list-inside grid grid-cols-1 sm:grid-cols-2 text-zinc-100 capitalize">
                   <li>90% lean ground beef</li>
                   <li>15 oz. can tomato sauce</li>
                   <li>2 slices of gluten free bread</li>
