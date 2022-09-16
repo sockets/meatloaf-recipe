@@ -61,6 +61,95 @@ function App() {
             </div>
           </div>
         </div>
+        <div className="mt-64 pt-24 pb-14 bg-zinc-800/20 " id="recipe">
+          <div className="text-center md:w-[90%] xl:w-4/5 mx-auto ">
+              <div className="relative mx-auto w-40 h-40 border-2 rounded-full border-orange-500 duration-300 hover:scale-105">
+                <a href="https://linkedin.com/in/sockets" className='relative z-[2] text-zinc-400/70 uppercase'>
+                  <img className="p-2 rounded-full" src={profile} alt="Joseph Clardy"/>
+                </a>
+                <span className="absolute -right-6 -top-1 z-[1] fill-white/40 opacity-75">
+                  <svg width="70" height="70" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" role="img">
+                    <defs>
+                      <pattern id="patt" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+                        <rect rx="5" ry="5" x="0" y="0" width="4" height="4" className="text-white" fill="#f97316"></rect>
+                      </pattern>
+                    </defs>
+                    <rect width="70" height="70" fill="url(#patt)"></rect>
+                  </svg>
+                </span>
+                <span className="absolute -left-2 -bottom-4 z-[1] fill-white/40 opacity-75">
+                  <svg width="70" height="70" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" role="img">
+                    <defs>
+                      <pattern id="patt" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+                        <rect rx="5" ry="5" x="0" y="0" width="4" height="4" className="text-white" fill="#f97316"></rect>
+                      </pattern>
+                    </defs>
+                    <rect width="70" height="70" fill="url(#patt)"></rect>
+                  </svg>
+                </span>
+              </div>
+            <div className="mt-8">
+              <a href="https://linkedin.com/in/sockets" className='text-zinc-400/70 uppercase'>Recipe courtesy of Joseph Clardy's Grandmother</a>
+              <h1 className='text-orange-500/80 capitalize text-[38px] font-bold'>Meat Loaf</h1>
+            </div>
+            <div className="mt-8 mx-auto  border-[1px] border-white/[5%] bg-zinc-800/40 w-4/5 rounded-md pb-8 mb-8">
+              <div className="grid-cols-0 py-12 grid px-8 grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-y-4 text-zinc-200">
+                <div className="col-span-1"><span className="font-bold">Level:</span> <span className="bg-green-500/20 rounded-full px-4 py-[1px] text-green-400">Easy</span></div>
+                <div className="col-span-1"><span className="font-bold">Prep Time:</span> 25 min</div>
+                <div className="col-span-1"><span className="font-bold">Cook Time:</span> 45 min</div>
+                <div className="col-span-1"><span className="font-bold">Total:</span> 1 hr </div>
+                <div className="col-span-1"><span className="font-bold">Yield:</span> 8 servings</div>
+              </div>
+              <div className="mx-auto w-[90%] flex">
+                <h2 className="text-zinc-200 text-[32px] font-semibold leading-none">Ingredients</h2>
+                <span className="ml-2 mt-5 inline-block w-full h-[3px] rounded-full bg-orange-500"></span>
+              </div>
+              <div className="mt-10 mx-auto w-[90%] text-left">
+                <ul className="list-disc list-inside grid grid-cols-2 text-zinc-100 capitalize">
+                  <li>90% lean ground beef</li>
+                  <li>15 oz. can tomato sauce</li>
+                  <li>2 slices of gluten free bread</li>
+                  <li>2 eggs</li>
+                  <li>1/2 of whole chopped onion</li>
+                  <li>salt and pepper to season</li>
+                  <li>ketchup</li>
+                </ul>
+              </div>
+              
+              <div className="mt-20 mx-auto w-[90%] flex">
+                <h2 className="text-zinc-200 text-[32px] font-semibold leading-none">Instructions</h2>
+                <span className="ml-2 mt-5 inline-block w-full h-[3px] rounded-full bg-orange-500"></span>
+              </div>
+              <div className="mt-10 mx-auto w-[90%] text-left">
+                <ul className="list-decimal list-inside text-zinc-100 capitalize">
+                  <li> Preheat oven to 450° Fahrenheit.</li>
+                  <li> Mix all of the Ingredients except for the ketchup.</li>
+                  <li> Place tinfoil as a liner in a glass baking dish.</li>
+                  <li> Put mixture in the dish and fold the ends over to close the top. </li>
+                  <li> Bake for 45 minutes.</li>
+                  <li> You can uncover for a few minutes near the end.</li>
+                  <li> Make sure the top is browned. </li>
+                  <li> Let the meatloaf rest for 8-10 minutes before serving (or it may fall apart). <span className="text-orange-400">**</span></li>
+                  <li> Decorate the top with ketchup. </li>
+                </ul>
+              </div>
+
+              <div className="mt-20 mx-auto w-[90%] flex">
+                <h2 className="text-zinc-200 text-[32px] font-semibold leading-none">Notes</h2>
+                <span className="ml-2 mt-5 inline-block w-full h-[3px] rounded-full bg-orange-500"></span>
+              </div>
+              <div className="mt-10 mx-auto w-[90%] text-left">
+                <ul className="list-none list-inside text-zinc-100 capitalize">
+                  <li> <span className="text-orange-400">*</span> Be sure to mix the meat really well.  This is a very moist meatloaf recipe so under mixing can cause the meatloaf to be too soft/mushy. </li>
+                  <li> <span className="text-orange-400">* *</span> This is my grandmothers recipe and she tends to just eyeball things. <span className="font-bold">So keep this in mind while making</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="pt-8 text-center">
+            <a href="https://github.com/sockets/meatloaf" className="text-white">Checkout this project on <span className="text-orange-400 font-semibold">Github</span></a>
+          </div>
+        </div>
       </div>
     </div>
   );
