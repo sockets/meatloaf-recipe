@@ -27,7 +27,7 @@ function App() {
                 <a className="text-slate-200 border rounded-full border-orange-500 relative mt-5 duration-300 hover:scale-110 inline-block items-center justify-center p-8 pt-2 pb-2 text-sm md:text-lg font-semibold" href="#recipe">
                     View Recipe
                 </a>
-                <a className="text-slate-200 underline underline-offset-4 relative mt-5 duration-300 hover:scale-110 inline-block items-center justify-center p-8 pt-2 pb-2 text-sm md:text-lg font-semibold" href="/recipe.pdf">
+                <a className="text-slate-200 underline underline-offset-4 relative mt-5 duration-300 hover:scale-110 inline-block items-center justify-center p-8 pt-2 pb-2 text-sm md:text-lg font-semibold" href="/recipe.pdf" target="_blank">
                     Instant Download
                 </a>
             </div>
